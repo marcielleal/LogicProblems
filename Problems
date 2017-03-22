@@ -1,0 +1,8 @@
+LCP-022 (A∧(B→C)) ⊢ ((A→B)→C)
+LCP-024 (A→(B∧C)) ⊢ ((A→B)∧(A→C))
+LCP-067 ¬(¬A∧B), B ⊢ A
+LCP-077 A ⊢ ¬(¬A∧B)
+LCPO-69 ∀ x, (Q x → R x), ∃ x, (P x ∧ ¬ R x) ⊢ ∃ x, (P x ∧ ¬Q x)
+LCPO-42 ∀x.∀y.(P(x)∨P(y)) ⊢ ∀x.P(x)
+LCPO-54 ∀x.R(x) ⊢ ¬∃x.¬R(x)
+LCPO-64 ∀ x, (R x → Q x), ∃ x, (P x ∧ R x) ⊢ ∃ x, (P x ∧ Q x)
