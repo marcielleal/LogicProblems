@@ -3,7 +3,7 @@ variables P Q R : U → Prop
 
 premise P1: forall x, forall y, (P x \/ P y)
 
-example (y : U): forall x, P x :=
+example: forall x, P x :=
 take x,
 have H1 : (forall y, (P x \/ P y)), from P1 x,
 have H2 : (P x \/ P x), from H1 x,
