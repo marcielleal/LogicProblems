@@ -6,3 +6,12 @@ LCPO-69 ∀ x, (Q x → R x), ∃ x, (P x ∧ ¬ R x) ⊢ ∃ x, (P x ∧ ¬Q x)
 LCPO-42 ∀x.∀y.(P(x)∨P(y)) ⊢ ∀x.P(x)
 LCPO-54 ∀x.R(x) ⊢ ¬∃x.¬R(x)
 LCPO-64 ∀ x, (R x → Q x), ∃ x, (P x ∧ R x) ⊢ ∃ x, (P x ∧ Q x)
+
+LCP-018	(A→B) ⊢ ((C∧A)→(B∧C))
+LCP-035	(A→B) ⊢ ((C∨A)→(B∨C))
+LCP-064	¬(A∧B), A ⊢ ¬B
+LCP-085	(A→B) ⊢ ¬(A∧¬B)
+LCPO-81	(∃x, P x ∨ Q x) (∀x, P x → Q x) ⊢ ∃x, Q x
+LCPO-14	R(j), ∀x.(R(x)→S(x)) ⊢ S(j)
+LCPO-27	∃x.R(x)∨∃y.S(y) ⊢ ∃z.(R(z)∨S(z))
+LCPO-29	∀x.P(x) ⊢ ∃y.P(y)
